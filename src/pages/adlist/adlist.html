@@ -1,0 +1,40 @@
+<!--
+  Generated template for the ForYouPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title class="text">Active Ads</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+<div class="container" *ngFor="let ad of ads">
+		<!--div class = "comname">
+			<h2>{{ad.companyName}}</h2>
+		</div-->
+		<div class = "imgdiv">
+			<img #img1 class="image1" src="{{ad.image}}" (click) = "goToHome()">
+		</div>
+		<!--div class="box1">
+			<p >{{ad.wrap}}</p>
+		</div>
+		<hr class = "hr">
+		<div class = "earn">
+			<p class = "head">Estimated Earnings</p>
+			<p class = "info">{{ad.estimate}} per day</p>
+		</div>
+		<div class = "otherinfo">
+			<p class = "head">Total Km and Location</p>
+			<p class = "info">Total {{ad.kilometers}} Km per day</p>
+			<p class = "info">{{ad.location}}</p>
+		</div>
+		<button class = "goad" ion-button (click)="goToAd()" block>PANEL</button--> <!--example-->
+		<hr/>
+</div>
+
+</ion-content>

@@ -1,0 +1,111 @@
+page-for-you {
+
+* {
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.enclose
+{
+	margin: 0;
+	height: 100%
+}
+
+.textstyle1
+{
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: black;
+	letter-spacing: 1.4px;
+	text-transform: uppercase;
+}
+font{
+	color: grey;
+}
+
+#number{
+	padding: 0;
+	margin: 0;
+	color: #4BD6F3;
+}
+.outer
+{
+	margin: 0 auto;
+	height: 200px;
+	width: 95%;
+	background-color: rgb(255,255,255);
+}
+
+.button1
+{
+	height:50px;
+	width:95%;
+	font-size: 18px;
+}
+.map{
+	border:1px solid #696969;
+	width: 95%;
+	height: 140px;
+	margin: 0 auto;
+}
+.outer ul{
+	list-style-type: none;
+	bottom: 10px;
+	padding: 0;
+}
+.outer li{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#middle {
+	border-left: 2px solid grey;
+	border-right: 2px solid grey;
+}
+.vl {
+    border-left: 3px solid green;
+    height: 5px;
+}
+.box
+{
+	width:30%;
+	display: inline-block;
+    vertical-align: top;
+    line-height: 50%;
+    text-align: center;
+}
+.title1
+{
+ 	font-size: 19px;
+	margin-top: 60px;
+	padding: 0;
+}
+
+.p1
+{
+	color: #000000;
+	font-size: 14px;
+	line-height: 2.5;
+	padding: 0;
+	
+}
+
+.bar
+{	
+	margin: 0 auto;
+	margin-bottom: 20px;
+	background-color: DodgerBlue;
+	height:5px;
+	width:20%;
+}
+
+.adimg
+{
+	margin: 0 auto;
+	padding: 0;
+ 	width: 90px;
+	height: 90px;
+ 	border-radius: 90px;
+}
+
+}

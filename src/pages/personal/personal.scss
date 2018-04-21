@@ -1,0 +1,96 @@
+page-personal {
+.labelname{
+	color: white;
+}
+#cal{
+	text-align: center;
+	display: block;
+}
+.car{
+	display: none;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width:95%;
+	height: 160px;
+}
+.no-events-label
+{
+	display: none;
+}
+.map{
+	display: none;
+	border:1px solid ;
+	width: 95%;
+	height: 160px;
+	margin: auto;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	border-radius: 5px;
+
+}
+.font 
+{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.cont1{
+	text-align: center;
+	line-height: 75%;
+}
+.carName
+{
+	color: grey;
+}
+.img1
+{
+	padding: 0px;
+	width: 150px;
+}
+.name 
+{
+	margin-top: 9px;
+	font-size: 18px;
+	color: black;
+}
+
+.cont
+{
+	width: 95%;
+	margin-left: 0.2cm;
+}
+.cont2
+{
+	width:25%;
+	display: inline-block;
+    vertical-align: top;
+    white-space:nowrap;
+    text-align: center;
+    padding: 0px;
+    line-height: 75%;
+}
+ul {
+  padding: 0px;
+ 
+  &.rating li {
+    padding: 5px 10px !important;
+    background: none;
+    color: #9ACD32;
+ 
+    ion-icon {
+      font-size: 30px;
+    }
+  }
+}
+.ProfIMG
+{
+	text-align: center;
+	margin-top: 10px;
+}
+.ProfIMG img{
+	width: 110px;
+	height: 110px;
+	border-radius: 90px;
+}
+
+}

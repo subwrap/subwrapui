@@ -1,0 +1,29 @@
+<ion-content >
+	<body class="enclose" >
+		<p class= "textstyle1 title1"> Welcome to Caradv Platform! </p>
+		<div class ="bar">
+		</div>
+		<!--button for stats -->
+		<button class="textstyle1 button1" ion-button>Status of your Ad</button>
+
+		<div class="outer">
+			<p class ="textstyle1 p1"> YOUR LATEST AD SELLING </p>
+			<img class="adimg" src = "{{image}}">
+			<ul id = "info" (click) = "goToDetail()">
+				<li>
+				<p id = "number">37<br><font>Days</font></p>
+				</li>
+				<li id = "middle">
+				<p id = "number">100<br><font>Miles</font></p>
+				</li>
+				<li>
+				<p id = "number">7<br><font>Cars</font></p>
+				</li>
+				<br>
+			</ul>
+		</div>
+		<br>
+		<div #map class ="map" (click) ="goToMap()"></div>
+
+	</body>
+</ion-content>

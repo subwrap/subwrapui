@@ -1,3 +1,35 @@
 page-home {
+    
+	.title{
+		text-align: center;
+		font-weight: 600;
+		font-size: 36px;
+		margin-top: 2cm;
+		line-height: 60%;
+	}
+
+	.font {
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	}
+
+	.input-1{
+		color:#337ab7;
+		width: 80%;
+		margin: 0 auto;
+		margin-right: 40px;
+	}
+	
+	.image1{
+		width: 80%;
+	}
+	
+	.login{
+		width: 100%;
+	}
+	.lg{
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 3px;
+	}
 
 }

@@ -1,0 +1,66 @@
+page-adlist {
+
+ion-navbar{
+	text-align: center;
+}
+
+.text
+{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.box1 
+{
+	text-align: center;
+	font-weight: normal;
+	font-size: 18px;
+}
+.box1 p{margin: 0;}
+.table1 
+{
+	margin: 0 auto;
+	text-align: center;
+}
+.earn
+{
+	margin-left: 10px;
+	float: left;
+}
+.otherinfo
+{
+	margin-right: 10px;
+	float: right;
+}
+.container hr{
+   background-color: black;
+}
+.earn, .otherinfo{margin-top: 20px;}
+.earn p, .otherinfo p{margin: 0;}
+.comname h{padding-top: 5px;}
+.head{font-size: 10px;}
+.info{font-size: 14px;}
+.goad
+{
+	background-color: #48EA82;
+	top: 20px;
+	margin: 0 auto;
+	width: 120px;
+	height: 45px;
+	border-radius: 15px;
+	border: 1px solid white;
+}
+.imgdiv .image1
+{
+	display: block;
+	margin: 0 auto;
+}
+
+.container
+{	
+	margin: 0 auto;
+	width: 90%;
+	height: 300px;
+	border-radius: 10px;
+	color: #FFFFFF;
+}
+}

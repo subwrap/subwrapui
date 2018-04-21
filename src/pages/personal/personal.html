@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title id="font">{{person.title}}'s Profile</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+<div class="ProfIMG"><img src="{{person.url}}"/></div>
+  <div class="cont1">
+    <p class ="font name"> {{person.title}}</p>
+    <p class ="font carName"> {{person.car}}</p>
+  <rating class="ratings" [(ngModel)]="rate" 
+        readOnly="false" 
+        max="5"
+        emptyStarIconName="star-outline" 
+        halfStarIconName="star-half" 
+        starIconName="star" 
+        nullable="false" 
+        (ngModelChange)="onModelChange($event)"></rating>
+</div>
+<div #cal id = "cal">
+<ion-item>
+<ion-label class = "labelname" >{{viewTitle}}</ion-label>
+      <ion-select id = "options" multiple = "true" [(ngModel)]="month">
+        <ion-option value="jan">January</ion-option>
+        <ion-option value="feb">Febuary</ion-option>
+        <ion-option value="mar">March</ion-option>
+        <ion-option value="apr">April</ion-option>
+        <ion-option value="may">May</ion-option>
+        <ion-option value="jun">June</ion-option>
+        <ion-option value="jul">July</ion-option>
+        <ion-option value="aug">August</ion-option>
+        <ion-option value="sep">September</ion-option>
+        <ion-option value="oct">October</ion-option>
+        <ion-option value="nov">November</ion-option>
+        <ion-option value="dec">December</ion-option>
+      </ion-select>
+</ion-item>
+<calendar [eventSource]="eventSource"
+        [calendarMode]="calendar.mode"
+        [currentDate]="calendar.currentDate"
+        (onEventSelected)="onEventSelected($event)"
+        (onTitleChanged)="onViewTitleChanged($event)"
+        (onTimeSelected)="onTimeSelected($event)"
+        step="30"
+        class="calendar">
+      </calendar>
+<button (click) = "specific()">Detail</button>
+</div>
+<div #car class ="car"><img src = "../../assets/Images/carad.PNG"/></div>
+<div #map class ="map" (click) ="goToMap()"></div>
+</ion-content>

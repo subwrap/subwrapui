@@ -1,17 +1,25 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
-</ion-header>
+<ion-content>
+<div class = "login" *ngFor="let logo of myImages" ion-fixed>
+    <div color ="primary" class="font title">
+      <img class="image1" src="{{logo.image}}">
+      </div>
+      <br><br>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+      <ion-item class="input-1">
+        <ion-label floating>Username</ion-label>
+        <ion-input type="text" value="" ></ion-input>
+      </ion-item>
+
+      <ion-item class="input-1">
+        <ion-label floating>Password</ion-label>
+        <ion-input type="password" value=""></ion-input>
+      </ion-item>
+		
+	  <br>
+    <div>
+      <!--button ion-button class = "lg" color="primary" (click)="login()" block>Log In</button-->
+      <button ion-button class = "lg"color="primary" (click)="loginU()" block> Log In</button>
+      <button ion-button class = "lg" color="primary" (click)="register()" block>Register</button>
+    </div>
+</div>
 </ion-content>
